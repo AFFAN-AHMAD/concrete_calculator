@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { concrete_dry_volume } from "../../utils/coefficients";
-import { concrete_grades } from "../../utils/concrete_grades";
+import { concrete_dry_volume } from "../../../utils/coefficients";
+import { concrete_grades } from "../../../utils/concrete_grades";
 
 import {
   CUM_to_CFT_conversion_factor,
   qty_in_one_bag_of_cement,
-} from "../..//utils/constants";
+} from "../../../utils/constants";
 
 import "./index.css";
 

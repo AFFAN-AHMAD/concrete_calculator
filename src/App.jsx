@@ -1,5 +1,5 @@
 import "./App.css";
-import ConcreteCalculator from "./pages/ConcreteCalculator";
+import ConcreteCalculator from "../src/components/calculators/ConcreteCalculator";
 
 function App() {
   return (
