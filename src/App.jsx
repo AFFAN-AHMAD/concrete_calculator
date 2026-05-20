@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 
 import ConcreteCalculator from "./pages/ConcreteCalculator";
+import SlabShutteringCalculator from "./pages/ShutteringCalculator/SlabShuttering";
 
 // import SlabShuttering from "./pages/shuttering/SlabShuttering";
 
@@ -33,25 +34,16 @@ function App() {
               element={<ConcreteCalculator />}
             />
 
-            {/* <Route
+            <Route
               path="/slab-shuttering"
-              element={
-                <SlabShuttering />
-              }
+              element={<SlabShutteringCalculator />}
             />
 
-            <Route
-              path="/beam-shuttering"
-              element={
-                <BeamShuttering />
-              }
-            />
+            {/* <Route path="/beam-shuttering" element={<BeamShuttering />} />
 
             <Route
               path="/slab-beam-shuttering"
-              element={
-                <SlabBeamShuttering />
-              }
+              element={<SlabBeamShuttering />}
             /> */}
           </Routes>
         </div>
